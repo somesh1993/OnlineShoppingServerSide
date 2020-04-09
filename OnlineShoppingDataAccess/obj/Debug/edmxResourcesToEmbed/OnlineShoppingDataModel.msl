@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="OnlineDatabaseModelStoreContainer" CdmEntityContainer="OnlineDatabaseEntities">
+    <EntitySetMapping Name="ShoppingCards">
+      <EntityTypeMapping TypeName="OnlineDatabaseModel.ShoppingCard">
+        <MappingFragment StoreEntitySet="ShoppingCard">
+          <ScalarProperty Name="BankName" ColumnName="BankName" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="CardNumber" ColumnName="CardNumber" />
+          <ScalarProperty Name="ValidDate" ColumnName="ValidDate" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
